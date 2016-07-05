@@ -1,8 +1,9 @@
 [alias]
 
-	# Branchs shortcut¬
+	# iShortcut¬
 	br  = branch¬
 	bra = branch -a
+	co = checkout
 
 	# View abbreviated SHA, description, and history graph of the latest 20 commits
 	ls   = log --decorate --pretty=format:"%C(yellow)%h\\ %C(green)%ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --date=short
