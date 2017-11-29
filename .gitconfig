@@ -1,7 +1,6 @@
 [alias]
 
-	# iShortcut¬
-	br  = branch¬
+	br  = branch
 	bra = branch -a
 	co = checkout
 
@@ -191,3 +190,8 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
+
+[user]
+	email = timothee.eid@erizo.fr
+	name = Timothee EID
+
