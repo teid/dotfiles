@@ -1,6 +1,9 @@
 # Set the lang
 export LANG=en_US.UTF-8
 
+# Set the PATH
+export PATH=$HOME/bin:$HOME/.npm-global/bin:/usr/local/bin:$PATH
+
 # Make vim the default editor.
 export EDITOR='vim';
 
