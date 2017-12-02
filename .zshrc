@@ -75,4 +75,11 @@ export LANG=en_US.UTF-8
 source $HOME/.aliases
 source $HOME/.exports
 
+# Source custom dependencies
+if [ -f "$HOME/.aliases_custom" ]; then
+	source $HOME/.aliases_custom
+fi
+if [ -f "$HOME/.exports_custom" ]; then
+	source $HOME/.exports_custom
+fi
 
